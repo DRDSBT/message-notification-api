@@ -20,7 +20,7 @@ public class MessageController {
     }
 
     @PostMapping(value = PATH)
-    public ResponseEntity<String> message(@RequestBody String messageJson) {
+    public ResponseEntity<String> updateMessage(@RequestBody String messageJson) {
 
         ResponseEntity<String> response = messageService.saveMessage(messageJson);
 
