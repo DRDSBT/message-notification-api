@@ -43,17 +43,16 @@ public class MessageService {
         }
 
         // Fallunterscheidung anhand des Typs
-
         //Info-Fall
         if(message.getType().equals("info")) {
             sendMessageToSlack(message, "#info-messages", slackHookInfo);
-            log.error("Infomeldungw: " + message.getMessageContent());
+            log.info("Infomeldung: " + message.getMessageContent());
         }
 
         //Warining-Fall
         if(message.getType().equals("warning")) {
             sendMessageToSlack(message, "#warning-messages", slackHookWarning);
-            log.error("Warnmeldung: " + message.getMessageContent());
+            log.warn("Warnmeldung: " + message.getMessageContent());
         }
 
         //Error-Fall
@@ -105,5 +104,4 @@ public class MessageService {
         //GSON wieder zu JSON umwandeln
         return new ResponseEntity<>(gson.toJson(tempMessages), HttpStatus.OK);
     }
-
 }
