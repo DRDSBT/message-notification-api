@@ -1,7 +1,13 @@
-Startbefehl:
-curl localhost:8090
+Post-Befehle:
+curl --header "Content-Type: application/json" -X POST --data "{'messageContent': 'Hallo wie geht es Dir', 'type': 'junk'}" localhost:8090/api/sendMessage
 
-Postbefehl:
-curl --header "Content-Type: application/json" -X POST --data "{'messageContent': 'Hallo wie geht es Dir', 'type': 'junk'}" localhost:8090/sendMessage
-curl -X GET localhost:8090/getAllMessages
-curl -X GET localhost:8090/getMessages/junk
+GET-Befehle:
+curl -X GET localhost:8090/api/getAllMessages
+curl -X GET localhost:8090/api/getMessages/junk
+curl -X GET localhost:8090/api/getMessages/info
+curl -X GET localhost:8090/api/getMessages/warning
+curl -X GET localhost:8090/api/getMessages/error
+
+Vortrag-Reihenfolge
+curl -X GET localhost:8090/api/getAllMessages
+curl --header "Content-Type: application/json" -X POST --data "{'messageContent': 'Hallo wie geht es Dir', 'type': 'junk'}" localhost:8090/api/sendMessage

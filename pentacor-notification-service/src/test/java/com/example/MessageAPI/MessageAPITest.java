@@ -12,6 +12,7 @@ import static org.junit.Assert.*;
 @SpringBootTest
 class MessageAPITest {
 
+	//cut == code under test
 	private MessageService cut;
 	@Mock
 	private MessageRepository messageRepository;

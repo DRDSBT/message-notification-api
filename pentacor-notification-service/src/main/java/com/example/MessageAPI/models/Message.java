@@ -9,7 +9,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @AllArgsConstructor //Getter-Methoden für Google-gson
 @Getter
 @Setter
-@Document(collection = "Messages")
+@Document(collection = "Messages") // Collection-Name in MongoDB
 public class Message {
 
     private String messageContent;

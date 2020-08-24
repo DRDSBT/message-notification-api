@@ -4,11 +4,9 @@ import org.springframework.data.repository.PagingAndSortingRepository;
 
 import java.util.List;
 
+// Repository für MongoDB, um Nachrichten abzuspeichern und herauszulesen
 public interface MessageRepository extends PagingAndSortingRepository<Message, String> {
-    /**
-     * Sucht alle {@link Message}
-     * @param type Type
-     * @return Liste aller gefundenen {@link Message}
-     */
+
+    // Zugriff auf Messages anhand des Typs
     List<Message> findByType(String type);
 }
