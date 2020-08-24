@@ -1,5 +1,0 @@
-Startbefehl:
-curls localhost:8090
-
-Postbefehl:
-curl --header "Content-Type: application/json" -X POST --data "{'messageContent': 'Hallo wie geht es Dir', 'type': 'junk'}" localhost:8090/sendmessage
