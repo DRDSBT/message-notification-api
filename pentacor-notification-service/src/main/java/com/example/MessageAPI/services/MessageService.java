@@ -31,7 +31,7 @@ public class MessageService {
         this.messageRepository = messageRepository;
     }
 
-    // Methode, die den Inhalt des POST-Endpunkts verarbeitet,
+    // Methode, die den Inhalt des POST-Endpunkts verarbeitet
     public ResponseEntity<String> saveMessage(String messageJson) {
         Message message;
 
@@ -39,7 +39,7 @@ public class MessageService {
         try {
             message = Message.createMessageFromJson(messageJson);
         } catch (JsonSyntaxException jse) { // Falls kein JSON-Format verwendet wurde
-            return new ResponseEntity<>("{'Error when processing message': '" + jse.getMessage() + "'}", HttpStatus.BAD_REQUEST);
+            return new ResponseEntity<>("{'Error beim Erstellen der Message': '" + jse.getMessage() + "'}", HttpStatus.BAD_REQUEST);
         }
 
         // Fallunterscheidung anhand des Typs
@@ -85,6 +85,7 @@ public class MessageService {
         }
     }
 
+    // Methode, die den Inhalt des GET-Parameters verarbeitet
     public ResponseEntity<String> findAllMessages() {
         // Iterable = List -> aufgrund findAll()
         Iterable<Message> tempMessages = messageRepository.findAll();
@@ -95,6 +96,7 @@ public class MessageService {
         return new ResponseEntity<>(gson.toJson(messageRepository.findAll()), HttpStatus.OK);
     }
 
+    // Methode, die den Inhalt des GET-Parameters verarbeitet
     public ResponseEntity<String> findMessagesByType(String type) {
         //List -> aufgrund findByType(type)
         List<Message> tempMessages = messageRepository.findByType(type);
