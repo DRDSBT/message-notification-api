@@ -28,9 +28,13 @@ curl --header "Content-Type: application/json" -X POST --data "{'messageContent'
 
 GET-Befehle:
 curl -X GET localhost:8090/api/getAllMessages
+
 curl -X GET localhost:8090/api/getMessages/junk
+
 curl -X GET localhost:8090/api/getMessages/info
+
 curl -X GET localhost:8090/api/getMessages/warning
+
 curl -X GET localhost:8090/api/getMessages/error
 
 3. Falls Sie dich Nachrichten im Slack sehen wollen, klicken sie auf den folgenden Einladungslink:
