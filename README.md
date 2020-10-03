@@ -18,9 +18,13 @@ Sh. docker-compose.yaml)
 
 POST-Befehle:
 curl --header "Content-Type: application/json" -X POST --data "{'messageContent': 'Hallo wie geht es Dir', 'type': 'junk'}" localhost:8090/api/sendMessage
+
 curl --header "Content-Type: application/json" -X POST --data "{'messageContent': 'Das ist eine Information', 'type': 'info'}" localhost:8090/api/sendMessage
+
 curl --header "Content-Type: application/json" -X POST --data "{'messageContent': 'Vorsicht, Warnung!', 'type': 'warning'}" localhost:8090/api/sendMessage
+
 curl --header "Content-Type: application/json" -X POST --data "{'messageContent': '404 ERROR', 'type': 'error'}" localhost:8090/api/sendMessage
+
 
 GET-Befehle:
 curl -X GET localhost:8090/api/getAllMessages
