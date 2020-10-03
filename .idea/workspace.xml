@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ae0a8364-2c81-4475-baa7-d88712fbb1c1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/pentacor-notification-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pentacor-notification-service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pentacor-notification-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pentacor-notification-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pentacor-notification-service/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pentacor-notification-service/data/db/WiredTiger" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pentacor-notification-service/data/db/WiredTiger.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pentacor-notification-service/data/db/WiredTiger.turtle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pentacor-notification-service/data/db/WiredTiger.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pentacor-notification-service/data/db/WiredTigerHS.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pentacor-notification-service/data/db/_mdb_catalog.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pentacor-notification-service/data/db/collection-0-3008026230699554058.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pentacor-notification-service/data/db/collection-2-3008026230699554058.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pentacor-notification-service/data/db/collection-4-3008026230699554058.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pentacor-notification-service/data/db/diagnostic.data/metrics.2020-08-23T12-30-06Z-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pentacor-notification-service/data/db/diagnostic.data/metrics.2020-08-23T12-31-28Z-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pentacor-notification-service/data/db/index-1-3008026230699554058.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pentacor-notification-service/data/db/index-3-3008026230699554058.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pentacor-notification-service/data/db/index-5-3008026230699554058.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pentacor-notification-service/data/db/index-6-3008026230699554058.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pentacor-notification-service/data/db/journal/WiredTigerLog.0000000002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pentacor-notification-service/data/db/journal/WiredTigerPreplog.0000000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pentacor-notification-service/data/db/journal/WiredTigerPreplog.0000000002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pentacor-notification-service/data/db/mongod.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pentacor-notification-service/data/db/sizeStorer.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pentacor-notification-service/data/db/storage.bson" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pentacor-notification-service/docker-compose.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pentacor-notification-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pentacor-notification-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pentacor-notification-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pentacor-notification-service/src/main/java/com/example/MessageAPI/PentacorNotificationApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pentacor-notification-service/src/main/java/com/example/MessageAPI/controller/MessageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pentacor-notification-service/src/main/java/com/example/MessageAPI/models/Message.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pentacor-notification-service/src/main/java/com/example/MessageAPI/models/MessageRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pentacor-notification-service/src/main/java/com/example/MessageAPI/services/MessageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pentacor-notification-service/src/main/resources/Curl-Befehle.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pentacor-notification-service/src/main/resources/Quellen.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pentacor-notification-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pentacor-notification-service/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pentacor-notification-service/src/test/java/com/example/MessageAPI/MessageAPITest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iN4B4wdm31gR5muPo2NNWmQGMT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/message-notification-api" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae0a8364-2c81-4475-baa7-d88712fbb1c1" name="Default Changelist" comment="" />
+      <created>1601734577592</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601734577592</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1601734622810">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1601734622810" />
+  </component>
+</project>
