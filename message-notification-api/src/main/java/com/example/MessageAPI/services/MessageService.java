@@ -21,9 +21,9 @@ public class MessageService {
 
     MessageRepository messageRepository;
 
-    private String slackHookError = "https://hooks.slack.com/services/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";
-    private String slackHookWarning = "https://hooks.slack.com/services/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";
-    private String slackHookInfo = "https://hooks.slack.com/services/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";
+    private String slackHookError = "https://hooks.slack.com/services/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";
+    private String slackHookWarning = "https://hooks.slack.com/services/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";
+    private String slackHookInfo = "https://hooks.slack.com/services/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";
     private final Gson gson = new Gson();
 
     @Autowired
