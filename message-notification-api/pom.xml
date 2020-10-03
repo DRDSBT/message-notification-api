@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>pentacor-notification-service</artifactId>
+	<artifactId>message-notification-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Pentacor Notification Service</name>
 	<description>Project handling notifications</description>
