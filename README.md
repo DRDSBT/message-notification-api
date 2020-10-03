@@ -37,10 +37,13 @@ curl -X GET localhost:8090/api/getMessages/warning
 
 curl -X GET localhost:8090/api/getMessages/error
 
-3. Falls Sie dich Nachrichten im Slack sehen wollen, klicken sie auf den folgenden Einladungslink:
-https://join.slack.com/t/test-jci2351/shared_invite/zt-glaamylz-ab5UV2VK5pCex~y4nJej9A
+3. Über http://localhost:8090/swagger-ui.html können Sie das Swagger-Interface verwenden und nachvollziehen, wie die API dokumentiert ist.
 
-4. Über http://localhost:8090/swagger-ui.html können Sie das Swagger-Interface verwenden und nachvollziehen, wie die API dokumentiert ist.
+
+Achtung! Aufgrund der Richtlinien der Slack-Webhooks kann man keine Nachrichten verseden, solange das Projekt auf GitHub online ist.
+Dennoch können Sie unter den folgenden Einladungslink nachvollziehen, wie die Nachrichten dort aussehen:
+https://join.slack.com/t/test-jci2351/shared_invite/zt-i0eau89w-Di9Mt9nV5_i1x8ledp3Pjw
+
 
 Folgende Technologien habe ich in diesem Projekt verwendet:
 
