@@ -56,4 +56,4 @@ Folgende Technologien habe ich in diesem Projekt verwendet:
 Ich hoffe, dass es soweit verständlich war! 
 
 
-Freundliche Grüße
+Freundliche Grüße!
